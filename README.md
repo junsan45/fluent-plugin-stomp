@@ -1,2 +1,2 @@
-fluent-plugin-activemq
+fluent-plugin-stomp
 ======================
