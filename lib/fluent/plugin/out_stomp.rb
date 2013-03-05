@@ -70,6 +70,7 @@ module Fluent
 					:stompconn => @stompconn
 					:usecrlf => @usecrlf
 			}
+		end
 
 		def start
 			super
