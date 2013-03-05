@@ -1,0 +1,34 @@
+PATH
+  remote: .
+  specs:
+    fluent-plugin-stomp (0.0.0)
+      fluentd
+
+GEM
+  remote: https://rubygems.org/
+  remote: http://ruby.taobao.org/
+  specs:
+    cool.io (1.1.0)
+      iobuffer (>= 1.0.0)
+    fluentd (0.10.31)
+      cool.io (~> 1.1.0)
+      http_parser.rb (~> 0.5.1)
+      json (>= 1.4.3)
+      msgpack (~> 0.4.4)
+      yajl-ruby (~> 1.0)
+    http_parser.rb (0.5.3)
+    iobuffer (1.1.2)
+    json (1.7.7)
+    msgpack (0.4.7)
+    rake (10.0.3)
+    stomp (1.2.8)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fluent-plugin-stomp!
+  fluentd
+  rake
+  stomp
